@@ -19,13 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "../node.modules/bootstrap/dist/css/bootstap.min.css",
-        "styles.css"
+              "styles.css"
       ],
       "scripts": [
-        "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/tether/dist/js/tether.min.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
         ],
       "environmentSource": "environments/environment.ts",
       "environments": {

@@ -1,7 +1,7 @@
 $mobile-only: "only screen and (max-width : 768px)";
 
 #footer {
-	background-color: #b92b27;
+	background-color: ##F0FFFF;
 	padding: 6px 0;
 	line-height: 18px;
 	vertical-align: middle;
@@ -12,20 +12,18 @@ $mobile-only: "only screen and (max-width : 768px)";
 
 
 .container {
-	background-color: #b92b27;
-	height: 6vh;
 	text-align: center;
 }
 
 p {
   font-weight: 300;
-  font-size: 1rem;
-  color: #fff;
+  font-size: 0.7rem;
+  color: #778899;
 
 }
 
 img {
-  height: 4rem;
+  height: 2.5rem;
   margin: 0 1rem;
   transition: transform 0.25s; 
   position: right;
@@ -35,7 +33,7 @@ img:hover {
   transform: scale(1.25); }
 
 a {
-  color: white;
+  color: #778899;
   cursor: pointer;
   text-decoration: none;
 }
