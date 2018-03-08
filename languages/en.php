@@ -5,6 +5,7 @@
 		"about" => "About",
 		"contact" => "Contact",
 		"jobs" => "Jobs",
+		"email" => "email:",
 		"message" => "Your message:",
 		"heraklion" => "Heraklion gradnja",
 
