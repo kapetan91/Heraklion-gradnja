@@ -66,16 +66,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php"><?php echo $lang['home'] ?> <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap')"><?php echo $lang['home'] ?> <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="about.php"><?php echo $lang['about'] ?></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="contact.php"><?php echo $lang['contact'] ?></a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="jobs.php"><?php echo $lang['jobs'] ?></a>
           </li>
         </ul>
