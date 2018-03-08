@@ -2,8 +2,11 @@
 include "config.php";
 ?>
 <!DOCTYPE html>
-<htm
+<html>
+
 	<body>
+
     <?php include('header.php') ?>
+
 	</body>
 </html>
