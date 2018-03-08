@@ -1,13 +1,15 @@
 <?php
 
 	$lang = array(
-		"home" => "Početna",
-		"about" => "O nama",
-		"contact" => "Kontakt",
-		"jobs" => "Poslovi",
+		"home" => "Почетна",
+		"about" => "О нама",
+		"contact" => "Контант",
+		"jobs" => "Послови",
+		"message" => "Ваша порука:",
+		"heraklion" => "Хераклион градња",
 
 
-		"lang_en" => "Engleski",
-		"lang_sr" => "Srpski"
+		"lang_en" => "Енглески",
+		"lang_sr" => "Српски"
 		);
 ?>

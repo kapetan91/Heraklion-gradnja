@@ -19,12 +19,12 @@ include "config.php";
             
             <div class="content-new-post">
                 <div class="form-group">
-                    <label class="form-label">Your email</label>
+                    <label class="form-label">Email</label>
                     <input type="text" class="form-input">
                 </div>
 
                 <div class="form-group">
-                    <label class="form-label">Your message</label>
+                    <label class="form-label"><?php echo $lang['message'] ?></label>
                     <textarea rows="10" class="form-input"></textarea>
                 </div>
 
