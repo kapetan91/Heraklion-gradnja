@@ -1,0 +1,10 @@
+
+.languageT {
+  color: white;
+  margin: 5px;
+  
+}
+.languageT:hover {
+  color: red;
+  text-decoration: none;
+}
