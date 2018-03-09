@@ -7,9 +7,10 @@ include "config.php";
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="shortcut icon" type="image/png" href="images/HG_logo_mark.jpg"/>    <title>Heraklion gradnja</title>
+<link rel="shortcut icon" type="image/png" href="images/HG_logo_mark.jpg"/>
+<title>Heraklion gradnja</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="contact">
 
@@ -19,7 +20,7 @@ include "config.php";
             
             <div class="content-new-post">
                 <div class="form-group">
-                    <label class="form-label">Email</label>
+                    <label class="form-label"><?php echo $lang['email'] ?></label>
                     <input type="text" class="form-input">
                 </div>
 
