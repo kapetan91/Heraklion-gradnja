@@ -6,12 +6,13 @@ include "config.php";
 	<body>
 
 	<header>
-		    <?php include('header.php') ?>
+		    <?php include('header.php') ?>	    
 	</header>
 
 
 	<main role="main">
-      <div class="container marketing">
+
+	<div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
