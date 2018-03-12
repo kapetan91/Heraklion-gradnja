@@ -8,7 +8,7 @@ include "config.php";
 
     <?php include "header.php"; ?>
     
-     <hr class="featurette-divider">
+     
       <div class="about">
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
