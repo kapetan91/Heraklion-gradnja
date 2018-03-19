@@ -5,7 +5,7 @@
 
 .gallery img {
     width:230px;
-    padding: 20px;
+    padding: 5px;
     filter: grayscale(100%);
     transition: 1s;
 }

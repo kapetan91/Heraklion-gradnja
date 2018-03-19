@@ -3,6 +3,9 @@
 	$lang = array(
 		"home" => "Home",
 		"about" => "About",
+		"about us" => "About us",
+		"contact us" => "Contact us",
+		"our jobs" => "Our Jobs",
 		"contact" => "Contact",
 		"jobs" => "Jobs",
 		"email" => "email:",
@@ -21,6 +24,7 @@
 		"design1" => 
         		" ",
        	"top" => "Back to top",
+       	"location" => "Loznica, Serbia",
 
 		"lang_en" => "English",
 		"lang_sr" => "Serbian"

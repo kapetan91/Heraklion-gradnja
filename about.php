@@ -7,9 +7,9 @@ include "config.php";
 	<body>
 
     <?php include "header.php"; ?>
-    
+    <div class="about">
      
-      <div class="about">
+      
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             
@@ -23,56 +23,33 @@ include "config.php";
         </div>
         </div>
       </div>
+    
 
       <hr class="featurette-divider">
-    <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">mast.inz.gradjevine</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Nenad Vicentic</a>
-              </h3>
-              
-              <p class="card-text mb-auto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-              
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" src="images/gazda.jpg" width="250px" height="250px" alt="Card image cap">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary"> NENAD VIĆENTIĆ PR HERAKLION GRADNJA </strong>
-              
-              <p class="card-text mb-auto">Sedište: Loznica
-                          <br>
-                          <br>
-                          adresa: PETRA KOMARČEVIĆA 44 A
-                          <br>
-                          <br>
-                          Direktor : Nenad Vićentić mast.inž.građ.
-                          <br>
-                          <br>
-                          Oblast delovanja : Visokogradnja
-                          <br>
-                          <br>
-
-                          
-
-                          </p>
-             
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-  
-  
+    <div class="about">
+    <div class="article">
+    <section class="py-5">
+      <div class="container">
+        <h1>mast. inz. Nenad Vicentic</h1>
         
-        <hr class="featurette-divider">
+        <p>
+          <img src="images/gazda.jpg" width="250px" height="270px" alt="Card image cap" style="float:left; margin:0 10px 5px 0;   
+padding:2px; border:1px #fff solid" >Nenad Vicentic was born on December 30, 1991. years.
+          He attended and finished secondary technical school in Loznica, direction construction of high-rise building. He is also a student of generation of technical school Loznica.
+          He attended the Faculty of Civil Engineering (direction of construction) in Novi Sad since 2010. He defended his engineering work in the field of technology and concrete design in 2015 with an estimate of 10.
+          Master studies (direction of construction) at the Faculty of Civil Engineering in Novi Sad ended in January 2017.The master work defended in field of the design of the multi-faceted AB construction towards the Eurocode with a maximum score of 10.
+          Winner of the competition in the field of concrete structures in the competition of students from all faculties from the territory of the former Yugoslavia in Ohrid in 2015.
+          He participated in the preparation of numerous projects for rehabilitation, adaptation and reconstruction of factory halls.
+          He has developed numerous projects for the state of the objects. He designed the supporting walls.
+          Supervised, organized and performed a wide range of works in the field of building construction (preparatory works, demolition, rough construction, finishing works ...)
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+
+  
+  
        <?php include "footer.php"; ?>
 
 	</body>

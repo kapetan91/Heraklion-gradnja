@@ -3,14 +3,69 @@ include "config.php";
 ?>
 <!DOCTYPE html>
 <html>
+<head>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/back.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
 	<body>
 
-	<header>
-		    <?php include('header.php') ?>	    
-	</header>
 
+	<?php include('header.php') ?>	
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('images/header.jpg')">
+            <div class="hero">        
+        <hgroup>
+            <h1><?php echo $lang['heraklion'] ?></h1>        
+            <h3><?php echo $lang['location'] ?></h3>
+        </hgroup>       
+        <button class="btn btn-hero btn-lg" role="button"><?php echo $lang['contact us'] ?></button>
+      </div>
+    </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/header2.jpg')">
+            <div class="hero">        
+        <hgroup>
+            <h1><?php echo $lang['heraklion'] ?></h1>        
+            <h3><?php echo $lang['location'] ?></h3>
+        </hgroup>       
+        <button class="btn btn-hero btn-lg" role="button"><?php echo $lang['our jobs'] ?></button>
+          </div>
+        </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/header3.jpg')">
+            <div class="hero">        
+        <hgroup>
+            <h1><?php echo $lang['heraklion'] ?></h1>        
+            <h3><?php echo $lang['location'] ?></h3>
+        </hgroup>       
+        <button class="btn btn-hero btn-lg" role="button"><?php echo $lang['about us'] ?></button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</header>
+
+  
 
 	<main role="main">
+     
 
 	<div class="container marketing">
 
@@ -65,28 +120,30 @@ include "config.php";
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        
 
-        <!-- /END THE FEATURETTES -->
+        
 
       </div><!-- /.container -->
 
 
       <!-- FOOTER -->
       <?php include('footer.php') ?>
+     
+  
+      </div>
+
     </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/holder.min.js"></script>
   </body>
 </html>
 
-	</body>
-</html>
