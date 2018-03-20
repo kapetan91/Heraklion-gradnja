@@ -3,15 +3,15 @@ include "config.php";
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <script type="text/javascript" src="js/back.js"></script>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <?php include "head.php"; ?>
 </head>
+
 	<body>
 
-
 	<?php include('header.php') ?>	
+
 <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -27,7 +27,7 @@ include "config.php";
             <h1><?php echo $lang['heraklion'] ?></h1>        
             <h3><?php echo $lang['location'] ?></h3>
         </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button"><?php echo $lang['contact us'] ?></button>
+        <button class="btn btn-hero btn-lg" role="button"><a style="color:white"; href="contact.php"><?php echo $lang['contact us'] ?></a></button>
       </div>
     </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
@@ -37,7 +37,7 @@ include "config.php";
             <h1><?php echo $lang['heraklion'] ?></h1>        
             <h3><?php echo $lang['location'] ?></h3>
         </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button"><?php echo $lang['our jobs'] ?></button>
+        <button class="btn btn-hero btn-lg" role="button"><a style="color:white"; href="jobs.php"><?php echo $lang['our jobs'] ?></a></button>
           </div>
         </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
@@ -47,7 +47,7 @@ include "config.php";
             <h1><?php echo $lang['heraklion'] ?></h1>        
             <h3><?php echo $lang['location'] ?></h3>
         </hgroup>       
-        <button class="btn btn-hero btn-lg" role="button"><?php echo $lang['about us'] ?></button>
+        <button class="btn btn-hero btn-lg" role="button"><a style="color:white"; href="about.php"><?php echo $lang['about us'] ?></a></button>
             </div>
           </div>
         </div>
@@ -62,11 +62,8 @@ include "config.php";
       </div>
 </header>
 
-  
-
 	<main role="main">
      
-
 	<div class="container marketing">
 
         <!-- Three columns of text below the carousel -->
@@ -120,18 +117,13 @@ include "config.php";
           </div>
         </div>
 
-        
-
-        
-
       </div><!-- /.container -->
 
+      <hr class="featurette-divider">
 
       <!-- FOOTER -->
       <?php include('footer.php') ?>
-     
-  
-      </div>
+      
 
     </main>
 

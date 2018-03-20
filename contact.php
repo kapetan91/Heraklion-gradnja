@@ -2,28 +2,13 @@
 include "config.php";
 include "mail/contact_me.php";
 ?>
+<!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="shortcut icon" type="image/png" href="images/HG_logo_mark.jpg"/>
-<title>Heraklion gradnja</title>
-
-<link rel="stylesheet" href="css/styles.css">
-<!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/about.css">
-    <link rel="stylesheet" type="text/css" href="css/about.min.css">
+  <?php include "head.php"; ?>
 </head>
+
 <body>
 
     <?php include('header.php') ?>
@@ -70,9 +55,9 @@ include "mail/contact_me.php";
               <div class="info">
               <div class="row">
           <div class="col-lg-12 text-center">
-            <h4 class="section-heading text-uppercase">Adresa: <br>Petra Komarcevica 44, Loznica</h4>
-            <h5 class="section-heading text-uppercase">broj telefona: <br>0643446971</h5>
-            <h5 class="section-heading text-uppercase">email: <br>jankovicsrb@gmail.com</h5>
+            <h4 class="section-heading"><?php echo $lang['address'] ?></h4>
+            <h5 class="section-heading text-lowercase"><?php echo $lang['number'] ?></h5>
+            <h6 class="section-heading text-lowercase"><?php echo $lang['email'] ?></h6>
           </div>
         </div>
     </div>
@@ -82,7 +67,19 @@ include "mail/contact_me.php";
       </div>
     </section>
 
-        <?php include('footer.php'); ?>
-
+    <?php include "footer.php"; ?>
+    
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/active.js"></script> 
+    <script src="js/contact_me.js"></script>
+    <script src="js/contact_me.min.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/jqBootstrapValidation.min.js"></script>
 </body>
 </html>

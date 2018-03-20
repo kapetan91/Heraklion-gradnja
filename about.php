@@ -3,27 +3,15 @@ include "config.php";
 ?>
 <!DOCTYPE html>
 <html>
+
 <head>
-<!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/about.css">
-    <link rel="stylesheet" type="text/css" href="css/about.min.css">
-
-
+  <?php include "head.php"; ?>
 </head>
 
-	<body>
+<body>
 
     <?php include "header.php"; ?>
 
-   -->
     <!-- About -->
     <section id="about">
       <div class="container">
@@ -69,8 +57,19 @@ include "config.php";
         </div>
       </div>
     </section>
-  
+    
+      <hr class="featurette-divider">
+
        <?php include "footer.php"; ?>
+
+           <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/active.js"></script> 
 
 	</body>
 </html>
