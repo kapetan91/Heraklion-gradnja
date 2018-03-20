@@ -1,5 +1,6 @@
 <?php
 include "config.php";
+include "mail/contact_me.php";
 ?>
 <html>
 <head>
@@ -11,29 +12,75 @@ include "config.php";
 <title>Heraklion gradnja</title>
 
 <link rel="stylesheet" href="css/styles.css">
+<!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/about.min.css">
 </head>
-<body class="contact">
+<body>
 
     <?php include('header.php') ?>
-     <div class="container">
-        <main class="page-content">
-            
-            <div class="content-new-post">
-                <div class="form-group">
-                    <label class="form-label"><?php echo $lang['email'] ?></label>
-                    <input type="text" class="form-input">
-                </div>
 
-                <div class="form-group">
-                    <label class="form-label"><?php echo $lang['message'] ?></label>
-                    <textarea rows="10" class="form-input"></textarea>
+     <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase"><?php echo $lang['contact us'] ?></h2>
+            <h3 class="section-subheading text-muted"><?php echo $lang['heraklion'] ?></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <p class="help-block text-danger"></p>
+                  </div>
                 </div>
-
-                <div class="form-group">
-                    <button type="button" class="btn btn-danger">Send</button>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
                 </div>
-            </div>
-        </main>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                </div>
+              </div>
+              <div class="info">
+              <div class="row">
+          <div class="col-lg-12 text-center">
+            <h4 class="section-heading text-uppercase">Adresa: <br>Petra Komarcevica 44, Loznica</h4>
+            <h5 class="section-heading text-uppercase">broj telefona: <br>0643446971</h5>
+            <h5 class="section-heading text-uppercase">email: <br>jankovicsrb@gmail.com</h5>
+          </div>
+        </div>
+    </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
         <?php include('footer.php'); ?>
 

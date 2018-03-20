@@ -16,7 +16,6 @@
     <meta name="keyword" content="heraklion gradnja, nenad vicentic, loznica, gradjevinska firma">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/active.js"></script>
     
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -34,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php"><?php echo $lang['home'] ?></a>
+            <a class="nav-link active" href="index.php"><?php echo $lang['home'] ?></a>
           </li>
           <li class="nav-item ">
             <a class="nav-link" href="about.php"><?php echo $lang['about'] ?></a>
@@ -61,4 +60,4 @@
     <script>window.jQuery || document.write('<script src="bootstrap-4.0.0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
     <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
- 
+    <script type="text/javascript" src="js/active.js"></script> 

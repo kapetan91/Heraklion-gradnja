@@ -1,6 +1,5 @@
-$(document).ready(function(){
-  $('ul li a').click(function(){
-    $('li a').removeClass("active");
-    $(this).addClass("active");
-});
+$(document).ready(function() {
+    $(document).on('click', '.nav-item a', function (e) {
+        $(this).parent().addClass('active').siblings().removeClass('active');
+    });
 });
